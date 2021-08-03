@@ -1,0 +1,242 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Deletes items from cart",
+        "description": "Given: User has some items in cart present\r\nWhen: User navigates to cart page\r\nThen: User clicks on Delete button for an item\r\nThen: Item should be deleted from queue",
+        "id": "delete-items-from-cart;user-deletes-items-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Delete items from cart",
+    "description": "",
+    "id": "delete-items-from-cart",
+    "keyword": "Feature",
+    "uri": "features/DeleteItems.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Unsuccessful Login with Invalid credentials",
+        "description": "",
+        "id": "invalid-credentials;unsuccessful-login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User opens browser to login",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on Log in screen",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User enter invalid credentials",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Appropriate error message is seen",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Invalid Credentials",
+    "description": "",
+    "id": "invalid-credentials",
+    "keyword": "Feature",
+    "uri": "features/InvalidCred.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful login with Valid Credentials",
+        "description": "",
+        "id": "application-login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User opens browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User logs into app",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Home Page is dispalyed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Validate logged in username",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User clicks on Purchase button before entering the mandatory details",
+        "description": "Given: User has items in cart \r\nWhen: User clicks on Place order button\r\nThen: Customer details pop up is seen\r\nThen: User clicks on Purchase button",
+        "id": "user-purchase-item-without-giving-details;user-clicks-on-purchase-button-before-entering-the-mandatory-details",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "User purchase item without giving details",
+    "description": "",
+    "id": "user-purchase-item-without-giving-details",
+    "keyword": "Feature",
+    "uri": "features/NoDetails.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Order Journey for Registered users",
+        "description": "Given: User is already logged it\r\nWhen: User adds one item from laptop category\r\nThen: User navigates to Cart page and place order\r\nAnd: User enters all details in the pop up and purchase\r\nThen: User gets an order confirmation popup",
+        "id": "order-confirmation-for-registered-user;order-journey-for-registered-users",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Order Confirmation For Registered user",
+    "description": "",
+    "id": "order-confirmation-for-registered-user",
+    "keyword": "Feature",
+    "uri": "features/OrderForRegister.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sign Up functioanlity for new user",
+        "description": "",
+        "id": "sign-up-functionality;sign-up-functioanlity-for-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User navigates to url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on Sign Up page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User enters unique username and password",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User clicks on Sign Up button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "New user logs into website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up Functionality",
+    "description": "",
+    "id": "sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "features/SignUp.feature"
+  }
+]
